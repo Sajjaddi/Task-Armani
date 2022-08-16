@@ -1,0 +1,26 @@
+.product-item {
+  position: relative;
+  padding: 10px 17px;
+  text-transform: capitalize;
+  cursor: pointer;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    background-color: rgb(235, 235, 235);
+  }
+}
+.product-item.selected {
+  color: #6284e4;
+  &::before {
+    position: absolute;
+    right: 20px;
+    content: "";
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 13px;
+    width: 7px;
+    border-bottom: 2px solid #6284e4;
+    border-right: 2px solid;
+  }
+}

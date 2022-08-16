@@ -1,0 +1,14 @@
+.list-container {
+  opacity: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  transition: all 0.15s ease-in;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.input-container.active .list-container {
+  opacity: 1;
+}/*# sourceMappingURL=ProductsList.css.map */
